@@ -8,10 +8,6 @@ Simple search-filter component
 
 The application is in final condition.
 
-## Live version
-
-You can try search-filter online at: https://daniilms.github.io/Search-filter-js/.
-
 ## Running localy
 
 ### Local server
