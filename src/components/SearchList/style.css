@@ -1,0 +1,20 @@
+.main-words-list {
+  flex-direction: column;
+  margin: 35px 0 0 0;
+  padding: 15%;
+  list-style-type: none;
+  max-height: 20%;
+  min-height: 20%;
+  overflow: scroll;
+}
+.main-words {
+  font-size: 40px;
+  font-weight: 400;
+}
+
+@media (max-width: 800px) {
+  .main-words {
+    font-size: 20px;
+    font-weight: 400;
+  }
+}

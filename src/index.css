@@ -1,0 +1,13 @@
+body {
+  font-family: "Bayon", sans-serif;
+  background-color: #ffea92;
+}
+.container {
+  margin: 0 auto;
+  max-width: 960px;
+}
+.flex-modifier {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

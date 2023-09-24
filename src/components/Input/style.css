@@ -1,0 +1,25 @@
+.main-input {
+  width: 70%;
+  height: 5%;
+  padding: 3%;
+  font-family: "Bayon", sans-serif;
+  font-size: 30px;
+  background-color: transparent;
+  border: 4px solid #000000;
+}
+
+@media (max-width: 800px) {
+  .main-input {
+    width: 60%;
+    height: 2%;
+    padding: 2%;
+    font-size: 15px;
+    background-color: transparent;
+    border: 4px solid #000000;
+  }
+}
+@media (max-width: 400px) {
+  .main-input {
+    border: 2.5px solid #000000;
+  }
+}
