@@ -14,7 +14,10 @@ function Input({ setSearchArray, words }) {
     const inputValue = e.target.value;
 
     if (input !== "") {
-      const filtredWords = words.filter((word) => inputValue.includes(word));
+      const filtredWords = words.filter(
+        (word) => word.includes(inputValue.toLowerCase())
+        /* inputValue.toLowerCase().includes(word) */
+      );
       setSearchArray(filtredWords);
     }
     setInput(inputValue);
